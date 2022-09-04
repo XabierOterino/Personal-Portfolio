@@ -2,6 +2,7 @@
 
 # dependencies
 /node_modules
+/diplomas
 /.pnp
 .pnp.js
 

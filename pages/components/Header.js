@@ -3,7 +3,7 @@
 function Header() {
 
     const style = {
-        headerContainer : "header w-full sticky top-0 bg-body mx-auto flex items-center justify-between",
+        headerContainer : "header w-full sticky top-0 bg-black mx-auto flex items-center justify-between",
         mainTitle: ' py-4 mx-8 font-bold  text-3xl',
         nav : 'hidden mx-4 md:flex   md:gap-16 items-center justify-between',
         button : 'bg-theme mx-8 font-bold   px-4 py-2',
@@ -16,11 +16,14 @@ function Header() {
         Xabier Oterino
         </h1>
         <nav className={style.nav}>
-            <a className={style.section}href="#education">Education</a>
             <a className={style.section}href="#work">Work</a>
+            <a className={style.section}href="#education">Education</a>
             <a className={style.section}href="#values">Values</a>
         </nav>
-        <button  className={style.button}>Hire me</button>
+        <a href="#hireme">
+          <div   className={style.button}>Hire me</div>
+        </a>
+        
     </div>
   )
 }

@@ -9,7 +9,8 @@ module.exports = {
     colors:{
       "body":"#111827",
       "secondary" : "#f8fafc",
-      "theme" : "#b91c1c"
+      "theme" : "#b91c1c",
+      "black" :"black"
     },
     fontFamily: {
       "poppins": ['Poppins', 'sans-serif'],

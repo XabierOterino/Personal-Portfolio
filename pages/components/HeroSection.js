@@ -14,7 +14,6 @@ function HeroSection() {
          <div className={'image-container mx-32'}>
               <Image 
                   className= {'image '}
-
                   width={300}
                   height={300}
                   src="/heroIcon.png" 
@@ -22,9 +21,9 @@ function HeroSection() {
           </div>
 
       </section>
-      <footer className='w-full flex justify-evenly flex-wrap'>
+      <footer className='w-full flex justify-evenly bg-secondary/40 flex-wrap'>
           <div><EmailIcon className='mr-2' />xabierblockchain@gmail.com</div>
-          <div><TwitterIcon className='mr-2' />@MrWojackETH</div>
+          <div><TwitterIcon className='mr-2' />@MrWojack_eth</div>
           <div><GitHubIcon  className='mr-2'/>XabierOterino</div>
           <div></div>
       </footer>

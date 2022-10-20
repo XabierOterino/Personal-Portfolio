@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-
+/dipomas
 # next.js
 /.next/
 /out/

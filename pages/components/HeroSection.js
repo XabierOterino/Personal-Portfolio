@@ -22,9 +22,9 @@ function HeroSection() {
 
       </section>
       <footer className='w-full flex justify-evenly bg-secondary/40 flex-wrap'>
-          <div><EmailIcon className='mr-2' />xabierblockchain@gmail.com</div>
-          <div><TwitterIcon className='mr-2' />@MrWojack_eth</div>
-          <div><GitHubIcon  className='mr-2'/>XabierOterino</div>
+          <a><div><EmailIcon className='mr-2' />xabierblockchain@gmail.com</div></a>
+          <a href="https://twitter.com/mrWojack_eth" target="blank" ><div><TwitterIcon className='mr-2' />@MrWojack_eth</div></a>
+          <a href="https://github.com/XabierOterino?tab=repositories" target="blank" ><div><GitHubIcon  className='mr-2'/>XabierOterino</div></a>
           <div></div>
       </footer>
     </>

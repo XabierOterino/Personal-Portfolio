@@ -6,6 +6,7 @@ import Diploma from './components/Diploma'
 import Project from './components/Project'
 import Stack from './components/Stack'
 import Hireme from './components/Hireme'
+import Footer from './components/Footer'
 import { useState } from 'react'
 export default function Home() {
   const [showAll , setShowAll] = useState(false)
@@ -148,7 +149,7 @@ export default function Home() {
       <Stack />
 
       
-      <div className={style.section} id='eduaction'>
+      <div className={style.section} id='education'>
         <h2 className={style.title}>Education</h2>
         <h3 className={style.subtitle}>Certified my Moralis Academy</h3>
         <p className={style.details}>I had the pleasure to be educated at the most well known academy in the industry : Moralis.
@@ -214,6 +215,7 @@ export default function Home() {
         <h1 className={style.title}>Hire me</h1>
         <Hireme />
       </div>
+      <Footer />
       
     </>
   )

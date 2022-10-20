@@ -1,7 +1,6 @@
 
 
 function Header() {
-
     const style = {
         headerContainer : "header w-full sticky top-0 bg-black mx-auto flex items-center justify-between",
         mainTitle: ' py-4 mx-8 font-bold  text-3xl',
@@ -9,7 +8,6 @@ function Header() {
         button : 'bg-theme mx-8 font-bold   px-4 py-2',
         section : "font-semibold "
     }
-
   return (
     <div className={style.headerContainer}>
         <h1 className={style.mainTitle}> 

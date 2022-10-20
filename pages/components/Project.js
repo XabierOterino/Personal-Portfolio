@@ -11,7 +11,6 @@ export default function Project(props) {
                 <h1 className='font-bold text-xl mb-4'>{props.name}</h1>
                 <p className='font semibold text-secondary/50'>{props.description}</p>
             </div>
-            <div className='content w-full h-56'></div>
         </div>
     </a>
   )

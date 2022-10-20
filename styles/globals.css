@@ -42,3 +42,12 @@ section {
 	z-index: 99;
 }
 
+.content{
+	background-color: black;
+	position: absolute;
+	display: none;
+}
+
+.card:hover .content{
+	display: flex;
+}

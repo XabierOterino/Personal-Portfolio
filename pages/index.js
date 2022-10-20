@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection'
 import Diploma from './components/Diploma'
 import Project from './components/Project'
 import Stack from './components/Stack'
+import Hireme from './components/Hireme'
 import { useState } from 'react'
 export default function Home() {
   const [showAll , setShowAll] = useState(false)
@@ -14,7 +15,7 @@ export default function Home() {
     section: " py-8 px-16 w-full",
     title:"mt-16 text-4xl font-bold",
     subtitle:"mt-4 text-xl font-semibold",
-    details : 'text-theme mb-16 font-semibold mt-4'
+    details : 'text-secondary/50 mb-16 font-semibold mt-4'
   }
   return (
     <>
@@ -211,7 +212,7 @@ export default function Home() {
       </div>
       <div className={style.section} id="hireme">
         <h1 className={style.title}>Hire me</h1>
-
+        <Hireme />
       </div>
       
     </>

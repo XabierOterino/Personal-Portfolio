@@ -201,9 +201,17 @@ export default function Home() {
       </div>
 
       <div className={style.section} id='values'>
-        <h2 className={style.title}>My values as a developer</h2>
-        <h3 className={style.subtitle}></h3>
-        <p className={style.details}></p>
+        <h2 className={style.title}>About me</h2>
+        <h3 className='mt-16 text-xl leading-9 font-semibold'>
+        I'm a business administration degree student. 
+        By chance, I got into finance and investing in 2020, which inevitably brought me to the blockchain world. 
+        At first, I was surprised by the huge trajectory of this technology and how some people had made insane profits out of it. 
+         So I did my own research , and the more I learnt about it the more convinced I was it was the future. In that moment I decided to invest 
+        in myself to become a blockchain expert because I decided I wanted to contribute in this revolutionary technology. I consider my self 
+        a blockchain enthusiast as I believe in a more transparent, decentralised, secure and censorship free world. I work hard for what I want,
+        and I'm ready to offer all my skills and knowledge. 
+
+        </h3>
       </div>
       <div className={style.section} id="hireme">
         <h1 className={style.title}>Hire me</h1>

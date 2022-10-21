@@ -13,10 +13,10 @@ export default function Hireme() {
     const sendEmail = (e) => {
         e.preventDefault()
         emailjs.sendForm(
-            "service_kbltzqf",
-            "template_tkgt4as", 
+            process.env.NEXT_PUBLIC_SERVICE_ID,
+            process.env.NEXT_PUBLIC_TEMPLATE_ID, 
             form.current, 
-            "VpfT3_RvXMmsCZx8Q"
+            process.env.NEXT_PUBLIC_PUBLIC_KEY
         )
         .then((result) => {
             console.log(result.text);

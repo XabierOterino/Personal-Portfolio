@@ -13,9 +13,10 @@ export default function Hireme() {
     const sendEmail = (e) => {
         e.preventDefault()
         emailjs.sendForm(
-            process.env.NEXT_SERVICE_ID,
-            process.env.NEXT_TEMPLATE_ID, 
-            form.current, process.env.NEXT_PUBLIC_KEY
+            "service_kbltzqf",
+            "template_tkgt4as", 
+            form.current, 
+            "VpfT3_RvXMmsCZx8Q"
         )
         .then((result) => {
             console.log(result.text);
@@ -27,8 +28,8 @@ export default function Hireme() {
   return (<>
    
     <form className="w-full flex flex-col mt-16" ref={form} onSubmit={sendEmail}>
-      <input placeholder='Name' className={styles.input} type="text" name="user_name" />
-      <input placeholder='Email' className={styles.input} type="email" name="user_email" />
+      <input placeholder='Name' className={styles.input} type="text" name="from_name" />
+      <input placeholder='Email' className={styles.input} type="email" name="from_email" />
       <textarea placeholder='Message' className={styles.textarea} name="message" />
       <input className={styles.button} type="submit" value="Send" />
     </form>

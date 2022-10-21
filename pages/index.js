@@ -110,13 +110,7 @@ export default function Home() {
           <Project 
           image="market.png" 
           name="NFT Marketplace" 
-          description="Full-blockchain NFT marketplace built with Hardhat and Next.js "/>ç
-          
-
-          <Project 
-          image="racksitems.png" 
-          name="Racks Items" 
-          description="A full ERC155 collections based dapp built for the community of Racks."/>
+          description="Full-blockchain NFT marketplace built with Hardhat and Next.js "/>
 
           <Project 
           image="twitter.png" 

@@ -203,13 +203,13 @@ export default function Home() {
       <div className={style.section} id='values'>
         <h2 className={style.title}>About me</h2>
         <h3 className='mt-16 text-xl leading-9 font-semibold'>
-        I'm a business administration degree student. 
-        By chance, I got into finance and investing in 2020, which inevitably brought me to the blockchain world. 
-        At first, I was surprised by the huge trajectory of this technology and how some people had made insane profits out of it. 
-         So I did my own research , and the more I learnt about it the more convinced I was it was the future. In that moment I decided to invest 
-        in myself to become a blockchain expert because I decided I wanted to contribute in this revolutionary technology. I consider my self 
-        a blockchain enthusiast as I believe in a more transparent, decentralised, secure and censorship free world. I work hard for what I want,
-        and I'm ready to offer all my skills and knowledge. 
+        My name and I'm a job-ready blockchain developer. As a blockchain passionate, I believe in a more decentralised, secure,
+        trustless , censorship-free world. I got into the crypto world in 2020 as an investor, interested by its big profits, but
+        after I really understood what really blockchain was and its value in 2021 decided to invest in myself to become an expert.  
+        Learned to program from scracth watching tutorials and reading books. In 2022 I joined Moralis Academy and completed most important
+        courses within 3 months. After getting all the certificates I started to spend countless hours impoving my Solidity , Javascript 
+        and frontend skills, built tons of projects on my own. Now I am ready to offer my knwoledge and skills to contribute to this
+        incredible technology.
 
         </h3>
       </div>

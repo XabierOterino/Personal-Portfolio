@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser';
 export default function Hireme() {
     const styles = {
         input: 'bg-black outline-none mx-4 mb-8 px-8 py-4  rounded-md',
-        button: 'hover:bg-theme/80 m-4 px-16 px-8 bg-theme rounded-md mt-8 bg-black h-16 font-bold text-3xl',
+        button: 'cursor-pointer hover:bg-theme/80 m-4 px-16 px-8 bg-theme rounded-md mt-8 bg-black h-16 font-bold text-3xl',
         textarea: 'bg-black rounded-md mx-4 outline-none px-8 py-4   '
     }
     const form = useRef();

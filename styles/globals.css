@@ -34,9 +34,12 @@ section {
 .header{
  
 }
-.image{
-  z-index:0;
+.image:hover{
+	transition: all 0.6s ease;
+	transform:  scale(1.2);
+	transform-origin: center;
 }
+
 
 .stack{
 	z-index: 99;

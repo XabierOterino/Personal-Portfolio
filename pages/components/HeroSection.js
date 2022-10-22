@@ -13,7 +13,7 @@ function HeroSection() {
           </div>
          <div className={'image-container mx-32'}>
               <Image 
-                  className= {'image '}
+                  className= 'image '
                   width={300}
                   height={300}
                   src="/heroIcon.png" 

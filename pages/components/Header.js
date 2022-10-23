@@ -14,9 +14,9 @@ function Header() {
         Xabier Oterino
         </h1>
         <nav className={style.nav}>
+            <a className={style.section}href="#values">Values</a>
             <a className={style.section}href="#work">Work</a>
             <a className={style.section}href="#education">Education</a>
-            <a className={style.section}href="#values">Values</a>
         </nav>
         <a href="#hireme">
           <div   className={style.button}>Hire me</div>

@@ -23,116 +23,140 @@ export default function Home() {
      
       <Header/>
       <HeroSection/>
+      <div className={style.section} id='values'>
+        <h2 className={style.title}>About me</h2>
+        <h3 className='mt-16 text-xl leading-9 font-semibold'>
+        My name and I&apos;m a job-ready blockchain developer. As a blockchain passionate, I believe in a more decentralised, secure,
+        trustless , censorship-free world. I got into the crypto world in 2020 as an investor, interested by its big profits, but
+        after I really understood what really blockchain was and its value in 2021 decided to invest in myself to become an expert.  
+        Learned to program from scracth watching tutorials and reading books. In 2022 I joined Moralis Academy and completed most important
+        courses within 3 months. After getting all the certificates I started to spend countless hours impoving my Solidity , Javascript 
+        and frontend skills, built tons of projects on my own. Now I am ready to offer my knwoledge and skills to contribute to this
+        incredible technology.
+
+        </h3>
+      </div>
+
       <div className={style.section} id='work'>
         <h2 className={style.title}>Work</h2>
         <div className='flex justify-center flex-wrap gap-2  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 p-16'>
 
           <Project 
+          url="https://github.com/XabierOterino/Simple-Stablecoin"
           image="solidity.png" 
           name="Decentralised Stablecoin" 
           description="Fully working decentralised stablecoin backed by ETH and pegged to USD using Chainlink price oracles."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Flashloans"
           image="solidity.png" 
           name="Flashloans" 
           description="Simple Flashloan app using the OpenZeppelin standards."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Multisig-Wallet/blob/main/Multisig-Wallet.sol"
           image="solidity.png" 
           name="Multisig Wallet" 
           description="ETH multisig wallet built in a smart contract."/>
         
           <Project 
+          url="https://github.com/XabierOterino/Orderbook-Dex"
           image="solidity.png" 
           name="Orderbook DEX" 
           description="Algorithmic orderbook based decentralised exchange."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Solidity-Chess-Game"
           image="solidity.png" 
           name="Solidity Chess Game" 
           description="Simple Chess game built in Solidity."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Linked3-JobLanding"
           image="solidity.png" 
           name="Linked3" 
           description="A complete blockchain job landing app completely built in Ethereum."/>
 
            <Project 
+          url="https://github.com/XabierOterino/CPAMM"
           image="solidity.png" 
           name="CPAMM" 
           description="Constant Product Automated Market Maker."/>
-
-          <Project 
-          image="solidity.png" 
-          name="Stable-Swap" 
-          description="Curve-like stable-swap."/>
           
           <Project 
+          url="https://github.com/XabierOterino/Solidity-Roulette"
           image="solidity.png" 
           name="Roulette game" 
           description="Automated roulette gambling game built in Solidity."/>
 
           <Project 
+          url="https://github.com/XabierOterino/StableSwapAMM"
           image="solidity.png" 
           name="Stable-Swap" 
           description="Curve-like stable-swap."/>
 
           <Project 
+          url="https://github.com/XabierOterino/DAO"
           image="solidity.png" 
           name="DAO Implementation" 
           description="Simple DAO implementing Open Zeppelin open-source libraries."/>
 
           <Project 
-          image="solidity.png" 
-          name="ERC721-Wrapped ERC-20" 
-          description="ERC721 implementation of a wrapped token."/>
-
-          <Project 
+          url="https://github.com/XabierOterino/Merkle-Tree-NFT-Whitelist"
           image="solidity.png" 
           name="Merkle Tree whitelist" 
           description="NFT whitelist that is computed off-chain and saved into a merkle tree to reduce gas use."/>
 
           <Project 
+          url="https://github.com/XabierOterino/racks-token-erc721-wrapped"
           image="solidity.png" 
           name="ERC721-Wrapped ERC-20" 
           description="ERC721 implementation of a wrapped token."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Short-ABI-Optimization"
           image="solidity.png" 
           name="Short ABI optimization" 
           description="Contract to storage data as calldata, like rollups do."/>
 
           <Project 
+          url="https://github.com/XabierOterino/CryptoKitties-NFT-Clon"
           image="kitties.png" 
           name="DNA mixing NFT collection" 
           description="A complex NFT collection based on Crypto Kitties model that permit DNA mixing , generation tracking and giving birth to new ones."/>
 
           <Project 
+          url="https://github.com/XabierOterino/NFT-Marketplace"
           image="market.png" 
           name="NFT Marketplace" 
           description="Full-blockchain NFT marketplace built with Hardhat and Next.js "/>
 
           <Project 
+          url="https://github.com/XabierOterino/Web3-Twitter"
           image="twitter.png" 
           name="Web3 Twitter" 
           description="The decentralised version of Twitter built from scracth with solidity, IPFS and Next"/>
 
           <Project 
+          url="https://github.com/XabierOterino/Opensea-Clon/tree/main/opensea-clon"
           image="opensea.png" 
           name="Opensea Clon" 
           description="Simple Opensea clon using Third Web development tools and Next."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Defi-Dapp"
           image="defi.png" 
           name="Full Defi Dapp" 
           description="A full stack defi dapp including borrowing and lending , and exchanges."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Mempool-Watcher/blob/main/scripts/main.js"
           image="node.png" 
           name="Mempool watcher" 
           description="A simple Node.js script to catch every single transaction that enters in the mempool."/>
 
           <Project 
+          url="https://github.com/XabierOterino/Web3-Airbnb"
           image="airbnb.png" 
           name="Web3 Airbnb" 
           description="Decentralised Airbnb built with Solidity and React."/>
@@ -198,20 +222,6 @@ export default function Home() {
           : <button className="text-theme font-semibold" onClick={()=>setShowAll(false)}>Hide</button>
         }
         
-      </div>
-
-      <div className={style.section} id='values'>
-        <h2 className={style.title}>About me</h2>
-        <h3 className='mt-16 text-xl leading-9 font-semibold'>
-        My name and I&apos;m a job-ready blockchain developer. As a blockchain passionate, I believe in a more decentralised, secure,
-        trustless , censorship-free world. I got into the crypto world in 2020 as an investor, interested by its big profits, but
-        after I really understood what really blockchain was and its value in 2021 decided to invest in myself to become an expert.  
-        Learned to program from scracth watching tutorials and reading books. In 2022 I joined Moralis Academy and completed most important
-        courses within 3 months. After getting all the certificates I started to spend countless hours impoving my Solidity , Javascript 
-        and frontend skills, built tons of projects on my own. Now I am ready to offer my knwoledge and skills to contribute to this
-        incredible technology.
-
-        </h3>
       </div>
       <div className={style.section} id="hireme">
         <h1 className={style.title}>Hire me</h1>

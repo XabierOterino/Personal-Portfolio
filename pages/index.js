@@ -147,7 +147,7 @@ export default function Home() {
         <h2 className={style.title}>Education</h2>
         <h3 className={style.subtitle}>Certified my Moralis Academy</h3>
         <p className={style.details}>I had the pleasure to be educated at the most well known academy in the industry : Moralis.
-            Funded by blockchain experts such as <a href='https://twitter.com/IvanOnTech' target="_blank"  className='underline cursor-pointer'>Ivan on Tech</a>. I have a deep understanding of how blockchain and EVM work as a window to a
+            Funded by blockchain experts such as <a href='https://twitter.com/IvanOnTech' target="_blank" rel='noreferrer'  className='underline cursor-pointer'>Ivan on Tech</a>. I have a deep understanding of how blockchain and EVM work as a window to a
             more transparent, decentralised and fair world. Overall , I have also done my own research as a self-taught developer to achieve a futher more deep understanding. Here some of my most important diplomas:
         </p>
 
@@ -203,7 +203,7 @@ export default function Home() {
       <div className={style.section} id='values'>
         <h2 className={style.title}>About me</h2>
         <h3 className='mt-16 text-xl leading-9 font-semibold'>
-        My name and I'm a job-ready blockchain developer. As a blockchain passionate, I believe in a more decentralised, secure,
+        My name and I&apos;m a job-ready blockchain developer. As a blockchain passionate, I believe in a more decentralised, secure,
         trustless , censorship-free world. I got into the crypto world in 2020 as an investor, interested by its big profits, but
         after I really understood what really blockchain was and its value in 2021 decided to invest in myself to become an expert.  
         Learned to program from scracth watching tutorials and reading books. In 2022 I joined Moralis Academy and completed most important

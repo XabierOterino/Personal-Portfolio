@@ -2,7 +2,7 @@ import React from 'react'
 
 function Diploma(props) {
   return (
-    <a href={`diplomas\${props.url}`} target="blank">
+    <a href={props.url} target="blank">
         <div className=' flex border bg-black border-secondary hover:bg-secondary/60 diploma mb-8 w-full cursor-pointer py-2 px-4 md:py-4 md:px-8  rounded-md'>
             <div className='w-2/12' >
             <img 

@@ -32,7 +32,7 @@ export default function Home() {
         Learned to program from scracth watching tutorials and reading books. In 2022 I joined Moralis Academy and completed most important
         courses within 3 months. After getting all the certificates I started to spend countless hours impoving my Solidity , Javascript 
         and frontend skills, built tons of projects on my own. Now I am ready to offer my knwoledge and skills to contribute to this
-        incredible technology.
+        incredible technology. I'm currently running my own open source project.
 
         </h3>
       </div>
@@ -130,7 +130,6 @@ export default function Home() {
           image="market.png" 
           name="NFT Marketplace" 
           description="Full-blockchain NFT marketplace built with Hardhat and Next.js "/>
-
           <Project 
           url="https://github.com/XabierOterino/Web3-Twitter"
           image="twitter.png" 
@@ -150,7 +149,7 @@ export default function Home() {
           description="A full stack defi dapp including borrowing and lending , and exchanges."/>
 
           <Project 
-          url="https://github.com/XabierOterino/Mempool-Watcher/blob/main/scripts/main.js"
+          url="https://github.com/XabierOterino/Mempool-Watcher"
           image="node.png" 
           name="Mempool watcher" 
           description="A simple Node.js script to catch every single transaction that enters in the mempool."/>
@@ -178,43 +177,51 @@ export default function Home() {
         <Diploma 
           title="Ethereum Smart Contract Programming 101" 
           text="I understand the fundamentals and logic of Solidity as a programming language."
+          url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Ethereum-Smart-Contract-Programming-101-Ethereum-Smart-Contract-Programming-101-Moralis-Moralis-Academy.pdf"
         />
         <Diploma 
-          title="Ethereum Smart Contract Programming 102"
+          title="Ethereum Smart Contract Programming 201"
           text="I have a good level as a Solidity developer, being able to implement complex logic in my code, Building Defi protocols such a Dex with good coding practices and in a secure way."
+          url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Ethereum-Smart-Contract-Programming-201-Ethereum-Smart-Contract-Programming-201-Moralis-Moralis-Academy.pdf"
         />
         <Diploma 
-          title="Build an Ethereum NFT Marketplace"
+          title="Ethereum Dapp Programming"
           text="I can build a complex NFT collection with features like DNA mixing and generation identification, like CryptoKitties did.
           I am also capable of building a fully working NFT marketplace."
+          url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Build-an-NFT-Marketplace-Ethereum-Dapp-Programming-Moralis-Moralis-Academy.pdf"
         />
-        
       
         {showAll && <> 
           <Diploma 
             title="Javascript for blockchain" 
             text="I have a deep understanding of javascript and modern javscript as ES6. Ican build clean and complex programs oriented to blockchain." 
+            url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-2021-JavaScript-Programming-for-Blockchain-Developers-Javascript-Programming-for-Blockchain-Developers-Moralis-Moralis-Academy.pdf"
           />
           <Diploma 
             title="Bitcoin 101" 
             text="Bitcoin from the very basic concepts like private and pulic keys to the most difficult ones such as halving, nodes and clients , PoW , forks etc." 
+            url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Blockchain-amp-Bitcoin-101-Blockchain-amp-Bitcoin-101-Moralis-Moralis-Academy.pdf"
           />
           <Diploma 
             title="Ethereum 101" 
             text="Ethereum , the world machine is definitely going to change the world, creating a new way of interacting : smart contracts.
           I have a complete understanding of what EVM is and how it works." 
+            url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Ethereum-101-Ethereum-101-Moralis-Moralis-Academy.pdf"
         />
           <Diploma
             title="Ethereum Smart Contract Security"
-            text="I know the the most common security issues in smart contracts such as reentrancy , over/underflow , frontrunning...Also i know the history of biggest hacks in the network like 'The DAO Hack'."
+            text="I know the the most common security issues in smart contracts such as reentrancy , over/underflow , frontrunning...Also I know the history of biggest hacks in the network like 'The DAO Hack'."
+            url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Ethereum-Smart-Contract-Security-Ethereum-Smart-Contract-Security-Moralis-Moralis-Academy.pdf"
           />
           <Diploma
             title="Moralis Web3 Programming"  
             text="I'm familiarized with Moralis' Web3 SDK and I can use it to build secure and scalable dapps rapidly."
+            url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-Moralis-Web3-dApp-Programming-Moralis-Web3-dApp-Programming-Moralis-Academy.pdf"
             /> 
           <Diploma 
             title="React Web Development 101"
             text="I know how to use the React library to build dynamic and efficient web pages using frameworks like Next."
+            url="https://github.com/XabierOterino/Moralis-Certificates/blob/main/Xabier-Oterino-Ibarra-React-Web-Development-101-React-Web-Development-101-Moralis-Moralis-Academy.pdf"
           />
         </>}
         {

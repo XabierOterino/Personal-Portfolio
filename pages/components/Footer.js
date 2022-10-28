@@ -5,7 +5,7 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 
 function Footer() {
   return (
-    <div className=' p-16 mt-16 bg-black'>
+    <div className=' py-16 px-4 md:px-16 mt-16 bg-black'>
       <div className='mx-16 flex justify-between border-b border-secondary w-full'>
           <h1 className=' '>Xabier Oterino</h1>
           <div className='flex mx-16 space-x-2 mb-2 items-start'>

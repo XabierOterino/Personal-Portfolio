@@ -32,7 +32,7 @@ export default function Home() {
         Learned to program from scracth watching tutorials and reading books. In 2022 I joined Moralis Academy and completed most important
         courses within 3 months. After getting all the certificates I started to spend countless hours impoving my Solidity , Javascript 
         and frontend skills, built tons of projects on my own. Now I am ready to offer my knwoledge and skills to contribute to this
-        incredible technology. I'm currently running my own open source project.
+        incredible technology. I&apos;m currently running my own open source project.
 
         </h3>
       </div>

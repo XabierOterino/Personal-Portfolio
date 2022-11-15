@@ -31,7 +31,7 @@ export default function Home() {
         after I really understood what really blockchain was and its value in 2021 decided to invest in myself to become a developer and contribute to the growth.  
         Learned to program was faster for me since I had a little java background. In 2022 I joined Moralis Academy and completed had a great experience and improvement. After getting almost all the certificates I started to spend countless hours impoving my Solidity , Javascript 
         and frontend skills, built tons of projects on my own. Now I am ready to offer my knwoledge and skills to contribute to this
-        incredible industry. I&apos;m currently just starting off my own open source <a href="https://web-demo-kohl.vercel.app/" target="_blank" className='underline cursor-pointer'>project.</a>
+        incredible industry. I&apos;m currently just starting off my own open source <a href="https://web-demo-kohl.vercel.app/" rel="noreferrer" target="_blank" className='underline cursor-pointer'>project.</a>
 
         </h3>
       </div>

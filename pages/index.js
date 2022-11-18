@@ -125,7 +125,7 @@ export default function Home() {
           description="A complex NFT collection based on Crypto Kitties model that permit DNA mixing , generation tracking and giving birth to new ones."/>
 
           <Project 
-          url="https://github.com/XabierOterino/NFT-Marketplace"
+          url="https://nft-marketplace-easynft.vercel.app/"
           image="market.png" 
           name="NFT Marketplace" 
           description="Full-blockchain NFT marketplace built with Hardhat and Next.js "/>
@@ -142,8 +142,8 @@ export default function Home() {
           description="Simple Opensea clon using Third Web development tools and Next."/>
 
           <Project 
-          url="https://github.com/XabierOterino/Defi-Dapp"
-          image="defi.png" 
+          url="https://defi-sample.vercel.app/"
+          image="defi-2.png" 
           name="Full Defi Dapp" 
           description="A full stack defi dapp including borrowing and lending , and exchanges."/>
 
